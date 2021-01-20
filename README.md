@@ -1,4 +1,7 @@
 # Katie Porter</b>
+[![GitHub Logo](https://cdn3.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_GitHub-128.png)](https://github.com/devkatie)
+[![LinkedIn Logo](https://cdn4.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_linkedin-128.png)](https://www.linkedin.com/in/katie-porter-49394256/)
+[![Contact Me](https://cdn3.iconfinder.com/data/icons/colorful-guache-social-media-logos-1/159/social-media_gmail-128.png)](mailto:kporter4196@gmail.com)
 ## Software Developer
 <p align="center">
   <b>Hi! My name is Katie. I'm a graduate from</b>
