@@ -1,5 +1,5 @@
 <p align="center">
-# Katie Porter
+  <b># Katie Porter</b>
 ## Software Developer
 - - -
 </p>
