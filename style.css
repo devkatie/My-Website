@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(images/baackground.png) no-repeat;
+    background-color: #000;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    padding: 20px;
+    height: 80px;
+    border-radius: 15px;
+
+}
+
+.navbar a {
+
+    width: 17%;
+    transition: 1.0s;
+    float: left;
+    overflow-wrap: none;
+    color: rgb(124, 42, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.navbar img {
+
+    display: block;
+    height: 10px;
+    width: 10px;
+
+
+}
+
+.navbar a:hover {
+
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+
+}
+
+/* .navbar a.active {
+
+    background-color: orchid;
+    color: #fff;
+
+}
+*/
+
+video {
+
+    position: absolute;
+    left: 00px;
+    bottom: 00px;
+    z-index: -2;
+    height: auto;
+    width: auto;
+    min-width: 100%;
+    min-height: 100%;
+
+
+}
