@@ -2,35 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Katie Porter Resume">
-    <meta name="keywords" content="Katie Porter, resume, web developer, computer science, programmer">
+    <meta name="description" content="Katie Resume">
+    <meta name="keywords" content="Katie, resume, web developer, computer science, programmer">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/heart.jpg" type="image/jpg">
-    <title>KATIE PORTER</title>
+    <script>
+        window.onload = function() {
+          var context = new AudioContext();
+        }
+        </script>
+    <title>KATIE</title>
 </head>
 <body>
     <!-- NAVBAR -->
     <div class="navbar">
         <a class="active" href="#"><b>Home</b></a>
-        <a class="#"><b>Test</b></a>
+        <a href="aboutme"><b>About Me</b></a>
         <a href="https://github.com/devkatie" target="_blank"><b>GitHub</b></a>
         <a href="https://www.linkedin.com/in/katie-porter-49394256/" target="_blank"><b>LinkedIn</b></a>
         <a href="https://open.spotify.com/user/yokatiemusic?si=54ee0d3dff094997" target="_blank"><b>Spotify</b></a>
+<!--
         <img src="images/heart.jpg" alt="logo" class="logo" style="width:90px;height:90px;">
+--> 
     </div>
     <!-- MAIN PAGE -->
-    <video autoplay loop play-inline muted>
-        <source src="images/cyberpunk.mp4">
+    <video playsinline autoplay loop muted id="bgvid">
+        <source src="images/brickheart.mp4">
         
             ERROR404!?!?!????!!!!! HELP!!!!!!! :'(
-    
-        </video>
-
-</body>
+    </video>
+    <!-- Audio -->
+<!--
+    <audio id="myAudio" controls autoplay>
+        <source src="audio/mayonakaNoDoor_MikiMatsubara.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myAudio").autoplay;
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+-->
+    </body>
 </html>
 
