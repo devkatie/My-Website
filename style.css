@@ -7,18 +7,18 @@ body {
 }
 
 .navbar {
-
     left: 50%;
     width: 100%;
     max-width: 100%;
     padding-top: 15px;
     height: 80px;
     border-radius: 15px;
-
+    align-content: center;
 }
 
 .navbar a {
-
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: cornflowerblue;
     width: 18%;
     transition: 1.0s;
     float: left;
@@ -27,37 +27,26 @@ body {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
-
+    font-size: 24px;
 }
 
 .navbar img {
-
     display: block;
     height: 10px;
     width: 10px;
-
-
 }
 
 .navbar a:hover {
-
     background-color: slategray;
     opacity: 50%;
     color: #fff;
-
 }
 
-/* .navbar a.active {
-
-    background-color: orchid;
-    color: #fff;
-
+.navbar a.active {
+    text-decoration: underline;
 }
-*/
 
 video {
-
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -65,5 +54,30 @@ video {
     top: 0;
     left: 0;
     z-index: -1;
+}
 
+h1, h2 {
+    color:rgb(120, 66, 245);
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: darkgrey;
+}
+
+h2:hover + .maincontent {
+    visibility: visible;
+    opacity: 1;
+}
+
+.maincontent {
+    visibility: hidden;
+    width: 100%;
+    opacity: 0;
+    transition: 1.2s;
+}
+
+.maincontent img {
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
